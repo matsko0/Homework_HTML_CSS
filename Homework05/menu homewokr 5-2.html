@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu homework</title>
+</head>
+
+<body>
+    <h1>Dado Tea Lunch Special</h1>
+
+    <form action="<!--homework.com/qinshift-->" method="get">
+
+        <h2>Working schedule</h2>
+        <table border="3" cellspacing="3" cellpadding="2">
+            <caption>Working days</caption>
+            <thead>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+                <th>Sunday</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td bgcolor="green">11AM-3PM</td>
+                    <td bgcolor="green">11AM-3PM</td>
+                    <td bgcolor="green">11AM-3PM</td>
+                    <td bgcolor="green">11AM-3PM</td>
+                    <td bgcolor="green">11AM-3PM</td>
+                    <td bgcolor="red">CLOSED</td>
+                    <td bgcolor="red">CLOSED</td>
+                </tr>
+            </tbody>
+
+        </table>
+
+        <h2><i>$9.95 (extra tax)</i></h2>
+
+        <!--Here should start a Table list-->
+
+        <p><i>Order includes sandwich, snack, and drink.</i></p>
+
+
+        <h3>Order information</h3>
+
+        <label for="orderName">Name:</label>
+        <input type="text" placeholder="Order Name" id="orderName" />
+
+        <br />
+        <input type="radio" id="forHere" name="questionOne" />
+        <label for="forHere">For Here</label>
+
+
+        <br />
+        <input type="radio" id="forTakeAway" name="questionOne" />
+        <label for="forTakeAway">For Take Away</label>
+
+        <hr />
+        <h3>Sandwiches</h3>
+
+        <ul>
+            <li>
+                Monday:
+            </li>
+
+            <input type="checkbox" id="tomatoMozarella" value="tomatoMozarella" />
+            <label for="tomatoMozarella">Tomato Mozarella</label>
+            <br />
+            <input type="checkbox" id="chickenSalad" value="chickenSalad" />
+            <label for="chickenSalad">Chicken Salad</label>
+
+            <li>
+                Tuesday:
+            </li>
+
+            <input type="checkbox" id="greekSaladWrap" value="greekSaladWrap" />
+            <label for="greekSaladWrap">Greek Salad Wrap</label>
+            <br />
+            <input type="checkbox" id="totoWrap" value="totoWrap" />
+            <label for="totoWrap">Toto Wrap</label>
+
+            <li>
+                Wednesday:
+            </li>
+
+            <input type="checkbox" id="redPepperHummus" value="redPepperHummus" />
+            <label for="redPepperHummus">Red Pepper Hummus</label>
+            <br />
+            <input type="checkbox" id="roastedTurkey" value="roastedTurkey" />
+            <label for="roastedTurkey">Roasted Turkey</label>
+
+            <li>
+                Thursday:
+            </li>
+
+            <input type="checkbox" id="carrotGingerHummusWrap" value="carrotGingerHummusWrap" />
+            <label for="carrotGingerHummusWrap">Carrot-Ginger Hummus Wrap</label>
+            <br />
+            <input type="checkbox" id="eggSalad" value="eggSalad" />
+            <label for="eggSalad">Egg Salad</label>
+
+            <li>
+                Friday
+            </li>
+
+            <input type="checkbox" id="dadoWrap" value="dadoWrap" />
+            <label for="dadoWrap">Dado Wrap</label>
+            <br />
+            <input type="checkbox" id="tunaSalad" value="tunaSalad" />
+            <label for="tunaSalad">Tuna Salad</label>
+        </ul>
+
+            <hr />
+
+            <input type="checkbox" id="glutenFreeBread" value="glutenFreeBread" />
+            <label for="glutenFreeBread">Gluten Free Bread (costs extra 0.75$) </label>
+
+            <!--TABLE ENDS AND NEW SSTARTS-->
+
+            <p>Snack<p>
+
+            <h3>Snacks</h3>
+
+            <input type="checkbox" id="apple" value="apple" />
+            <label for="apple">Apple</label>
+            <br />
+            <input type="checkbox" id="banana" value="banana" />
+            <label for="banana">Banana</label>
+            <br />
+            <input type="checkbox" id="potatoChips" value="potatoChips" />
+            <label for="potatoChips">Potato Chips</label>
+
+
+
+            <p>Drink</p>
+            <fieldset>
+
+                <legend>Regular size drink</legend>
+                <select id="drink">
+
+                    <option disabled selected>Choose your drink:</option>
+                    <option>Coffee or Iced Coffee</option>
+                    <option>Organic Peppermint</option>
+                    <option>Hot or Iced Sencha Green tea</option>
+                    <option>Hot or Iced Keemun Black tea</option>
+                </select>
+                <p><b>costs extra 1,75$ for any reguar size Bubble Tea </b></p>
+                <input type="checkbox" id="largeDrink" value="largeDrink" />
+                <label for="largeDrink">Large Drink (costs extra 0.75$ )</label>
+
+            </fieldset>
+        
+            <br/>
+            <button type="submit">Place order</button>
+        
+
+    </form>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
