@@ -1,0 +1,35 @@
+*{
+    background-color: rgb(189, 233, 180);
+}
+
+
+footer {
+    background-color: brown;
+}
+
+
+h1, h2{
+    color:black;
+    background-color: bisque;
+    
+}
+
+.navBar {
+    background-color: whitesmoke;
+    color:brown
+}
+
+li>a {
+    color: brown;
+}
+
+.secondParagraph {
+    background-color: bisque;
+    color:blue
+}
+
+.thirdParagraph {
+    background-color: azure;
+    color:red
+}
+
